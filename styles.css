@@ -1,3 +1,61 @@
 body{
+	font-family:Helvetica, sans-serif;
+	background-image: url(pattern.png);
+}
+nav{
+	top:-15px;
+	text-align:center;
+	font-size: 130%
+}
+header{
+	padding:9px;
+	background-image: linear-gradient(to bottom, #95484b, #af595c, #6f3032) 
+}
 
+#wrapper{
+	width:77%;
+	
+	background-color:whitesmoke;
+	margin-left:auto;
+	margin-right:auto;
+	padding:3%
+	
+	
+}
+#frame{
+	text-align:center;
+	height:470px;
+	
+}
+.legend{
+	color: #95484b;
+	font-weight:bold;
+	text-align:center;
+	display: inline-block;
+}
+.photo{
+	background-image: url(cohort.png);
+	background-image: ;
+	height:100%;
+	width:100%;
+}
+.logo{
+	width: 11%;
+	padding: 30px;
+}
+footer{
+	margin-top:1 em;
+	margin-bottom:1 em;
+	text-align:center;
+}
+a:link{
+	text-decoration:none;
+	border-color : white, solid;
+	border-width: 3px;
+	background-color: #95484b;
+	color: white;
+	padding: 0.2em;
+}
+.element{
+	color: deeppink;
 }
